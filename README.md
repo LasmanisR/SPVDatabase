@@ -4,7 +4,7 @@
 * [Saites](#Saites)
 
 # Projekta apraksts
-Es ar savu kolēģi Daini izveidoju databāzi mūsu skolas inventāram, tālāk es veidoju savu prototipu datubāzes mājaslapai. Nākošais uzdevums ir izveidot jau pilnvērtīgu mājaslapu pēc prototipa izmantojot HTML,CSS un JavaScript.
+Es ar savu kolēģi Daini izveidoju datubāzi mūsu skolas inventāram, tālāk es veidoju savu prototipu datubāzes mājaslapai. Nākošais uzdevums ir izveidot jau pilnvērtīgu mājaslapu pēc prototipa izmantojot HTML,CSS un JavaScript.
 
 # Kods
 -Šobrīd Nav
