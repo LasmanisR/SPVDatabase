@@ -10,5 +10,5 @@ Es ar savu kolēģi Daini izveidoju databāzi mūsu skolas inventāram, tālāk 
 -Šobrīd Nav
 
 # Saites
--https://ynw5i.draftium.site/ - Mans prototips.
--https://draftium.com/ - Mājaslapa kurā veidoju prototipu.
+- https://ynw5i.draftium.site/ - Mans prototips.
+- https://draftium.com/ - Mājaslapa kurā veidoju prototipu.
