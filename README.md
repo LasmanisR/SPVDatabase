@@ -7,7 +7,7 @@ Es ar savu kolēģi Daini izveidoju datubāzi mūsu skolas inventāram, tālāk 
 * Sākumā sapratu, kas ir datubāze.
 * Izvēlējos par ko taisīšu datubāzi.
 * Izdomāju kā izskatīsies datubāze.
-* Izveidoju datubāzes prototipu. "https://dbdesigner.page.link/p1Re"
+* Izveidoju datubāzes prototipu.
 * Pēc skolotājas ieteikumiem, uzlaboju prototipu.
 * Sāku veidot īstu datubāzi izmantojot MySQL 
 * Sāku veidot mājaslapu savai datubāzei.
@@ -32,5 +32,6 @@ Es ar savu kolēģi Daini izveidoju datubāzi mūsu skolas inventāram, tālāk 
 * Uzlabot datubāzi.
 
 # Saites
-- https://ynw5i.draftium.site/ - Mans prototips.
+- https://dbdesigner.page.link/p1Re - Mans datubāzes prototips.
+- https://ynw5i.draftium.site/ - Mans mājaslapas prototips.
 - https://draftium.com/ - Mājaslapa kurā veidoju prototipu.
