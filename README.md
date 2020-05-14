@@ -17,7 +17,7 @@ Es ar savu kolēģi Daini izveidoju datubāzi mūsu skolas inventāram, tālāk 
 * Lietotājs - Sadaļa kas satur informāciju par lietotāju - ID, Vārds Uzvārds.
 * Objekts - Sadaļa kas satur informāciju par objektu - ID, numurs, cena utt.
 * Kabinets - Sadaļa kas satur informāciju par kabinetu -  ID, numurs un tā atbildigais.
-<img src="url" alt="alt text" width="whatever" height="whatever">
+<img src="https://github.com/LasmanisR/SPVDatabase/blob/master/Images/DATUBAZE.png" alt="" width="500" height="600">
 
 # Kods
 -Šobrīd Nav
