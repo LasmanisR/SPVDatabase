@@ -1,6 +1,6 @@
-# SPVDatabase
+# Projekts "Skolas inventārs"
 
-# Projekta apraksts
+# Par projektu.
 Es ar savu kolēģi Daini izveidoju datubāzi mūsu skolas inventāram, tālāk es veidoju savu prototipu datubāzes mājaslapai. Nākošais uzdevums ir izveidot jau pilnvērtīgu mājaslapu pēc prototipa izmantojot HTML,CSS un JavaScript. Mans mērķis ir izveidot vismaz nedaudz līdzīgu mājaslapu savam prototipam, cerībā ka vismaz daļa no funkcijām darbosies.
 
 # Projekta izveide.
@@ -13,6 +13,10 @@ Es ar savu kolēģi Daini izveidoju datubāzi mūsu skolas inventāram, tālāk 
 * Sāku veidot mājaslapu savai datubāzei.
 * Uzlaboju mājaslapu...
 
+# Projekts.
+* Lietotājs - Sadaļa kas satur informāciju par lietotāju - ID, Vārds Uzvārds.
+* Objekts - Sadaļa kas satur informāciju par objektu - ID, numurs, cena utt.
+* Kabinets - Sadaļa kas satur informāciju par kabinetu -  ID, numurs un tā atbildigais.
 
 # Kods
 -Šobrīd Nav
