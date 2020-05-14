@@ -34,4 +34,3 @@ Es ar savu kolēģi Daini izveidoju datubāzi mūsu skolas inventāram, tālāk 
 # Saites
 - https://dbdesigner.page.link/p1Re - Mans datubāzes prototips.
 - https://ynw5i.draftium.site/ - Mans mājaslapas prototips.
-- https://draftium.com/ - Mājaslapa kurā veidoju prototipu.
