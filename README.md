@@ -19,8 +19,17 @@ Es ar savu kolēģi Daini izveidoju datubāzi mūsu skolas inventāram, tālāk 
 * Kabinets - Sadaļa kas satur informāciju par kabinetu -  ID, numurs un tā atbildigais.
 <img src="https://github.com/LasmanisR/SPVDatabase/blob/master/Images/DATUBAZE.png" alt="" width="300" height="300">
 
-# Kods
--Šobrīd Nav
+# Izmantotās tehnoloģijas
+* Dators
+* VisualStudio Code
+* Postman
+* JavaScript
+* HTML
+* MySQL
+
+# Uzlabojumi
+* Uzlabot mājaslapu.
+* Uzlabot datubāzi.
 
 # Saites
 - https://ynw5i.draftium.site/ - Mans prototips.
