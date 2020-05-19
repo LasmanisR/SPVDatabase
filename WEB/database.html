@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <title>SPV database</title>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!--enable mobile device-->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!--fontawesome css-->
+      <link rel="stylesheet" href="css/font-awesome.min.css">
+      <!--bootstrap css-->
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <!--animate css-->
+      <link rel="stylesheet" href="css/animate-wow.css">
+      <!--main css-->
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/bootstrap-select.min.css">
+      <link rel="stylesheet" href="css/slick.min.css">
+      <link rel="stylesheet" href="css/select2.min.css">
+      <!--responsive css-->
+      <link rel="stylesheet" href="css/responsive.css">
+      <!--tabulas css-->
+      <link rel="stylesheet" href="css/styles.css">
+   </head>
+   <body>
+      <header id="header" class="top-head">
+         <!-- Static navbar -->
+         <nav class="navbar navbar-default">
+            <div class="container-fluid">
+               <div class="row">
+                  <div class="col-md-4 col-sm-12 left-rs">
+                     <div class="navbar-header">
+                        <a href="index.html" class="navbar-brand"><img src="images/logo.png" alt="" /></a>
+                     </div>
+                     <form class="navbar-form navbar-left web-sh">
+                     </form>
+                  </div>
+                  <div class="col-md-8 col-sm-12">
+                     <div class="right-nav">
+                        <div class="login-sr">
+                           <div class="login-signup">
+                              <ul>
+                                 <li><a href="#">ID/Vārds Uzvārds</a></li>
+                              </ul>
+                           </div>
+                        </div>
+                        <div class="help-r hidden-xs">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!--/.container-fluid --> 
+         </nav>
+      </header>
+      <!-- Modal -->
+      <div class="modal fade lug" id="myModal" role="dialog">
+         <div class="modal-dialog">
+            <!-- Modal content-->
+         </div>
+      </div>
+      <div class="terms-conditions product-page">
+         <div class="terms-title">
+            <div class="container">
+               <div class="row">
+                  <ol class="breadcrumb">
+                     <li><a href="#">Sākums </a></li>
+                     <li class="active">Datubāze</li>
+                  </ol>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <body>
+         <table>
+             <tr>
+                 <td>
+                     <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+                         <div>
+                             <label>ID*</label><label class="validation-error hide" id="fullNameValidationError">This field is required.</label>
+                             <input type="text" name="objID" id="objID">
+                         </div>
+                         <div>
+                             <label>Numurs</label>
+                             <input type="text" name="Numurs" id="Numurs">
+                         </div>
+                         <div>
+                             <label>Cena</label>
+                             <input type="text" name="Cena" id="Cena">
+                         </div>
+                         <div>
+                             <label>Termiņš</label>
+                             <input type="text" name="Termiņš" id="Termiņš">
+                         </div>
+                         <div>
+                           <label>Daudzums</label>
+                           <input type="text" name="Daudzums" id="Daudzums">
+                         </div>
+                         <div>
+                           <label>Iegādes Laiks</label>
+                           <input type="date" name="Laiks" id="Laiks">
+                         </div>
+                         <div>
+                           <label>Kabinets</label>
+                           <input type="text" name="Kabinets" id="Kabinets">
+                         </div>
+                         <div  class="form-action-buttons">
+                             <input type="submit" value="Submit">
+                         </div>
+                     </form>
+                 </td>
+                 <td>
+                     <table class="list" id="Objekti">
+                         <thead>
+                             <tr>
+                                 <th>ID</th>
+                                 <th>Numurs</th>
+                                 <th>Cena</th>
+                                 <th>Termiņš</th>
+                                 <th>Daudzums</th>
+                                 <th>Iegādes Laiks</th>
+                                 <th>Kabinets</th>
+                                 <th></th>
+                             </tr>
+                         </thead>
+                         <tbody>
+     
+                         </tbody>
+                     </table>
+                 </td>
+             </tr>
+         </table>
+         <script src="js/tabula.js"></script>
+     </body>
+      <footer>
+         <div class="copyright">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-8">
+                     <p><img width="90" src="images/logo.png" alt="#" style="margin-top: -5px;" /> Siguldas Pilsētas Vidusskola © 2020</p>
+                  </div>
+                  <div class="col-md-4">
+                     <ul class="list-inline socials">
+                        <li>
+                           <a href="">
+                           <i class="fa fa-facebook" aria-hidden="true"></i>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="">
+                           <i class="fa fa-twitter" aria-hidden="true"></i>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="">
+                           <i class="fa fa-instagram" aria-hidden="true"></i>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#">
+                           <i class="fa fa-link" aria-hidden="true"></i>
+                           </a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!--main js--> 
+      <script src="js/jquery-1.12.4.min.js"></script> 
+      <!--bootstrap js--> 
+      <script src="js/bootstrap.min.js"></script> 
+      <script src="js/bootstrap-select.min.js"></script>
+      <script src="js/slick.min.js"></script> 
+      <script src="js/select2.full.min.js"></script> 
+      <script src="js/wow.min.js"></script> 
+      <!--custom js--> 
+      <script src="js/custom.js"></script>
+   </body>
+</html>
