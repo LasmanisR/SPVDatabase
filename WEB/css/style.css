@@ -1,44 +1,5 @@
-/*-------------------------------------------------------------------------------------- 
-	Theme Name: Chamb - Responsive E-commerce HTML5 Template 
----------------------------------------------------------------------------------------- 
-    
-	1. IMPORT FILES
-	2. BASE CSS 
-	3. HEADER
-	   - Logo
-	   - Search Bar
-	4. PAGE CONTENT PRODUCT 
-	5. SECTION
-	   - Products Exciting
-	   - Start Free
-	6. PRODUCT
-	7. FOOTER
-	   - Copyright
-	8. INNER PAGE   
-	   - How it Works
-	   - About Us
-	   - Terms Page
-	   - Cooming Soon
-	   - Category
-	   - Profile
-	   - Pricing
-	   - Product Page
-	   - New Layout css
-	
---------------------------------------------------------------------------------------*/
-
-/*------------------------------------------------------------- 
-	1. IMPORT FILES
--------------------------------------------------------------*/
-
 @import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
 
-/**-- font-family: 'Raleway', sans-serif; --**/
-
-
-/*------------------------------------------------------------- 
-	2. BASE CSS 
--------------------------------------------------------------*/
 
 body {
 	font-family: 'Raleway', sans-serif;
@@ -97,9 +58,9 @@ textarea {
 }
 
 
-/*------------------------------------------------------------- 
+/*
 	2. HEADER 
--------------------------------------------------------------*/
+*/
 
 header .navbar {
 	border-radius: 0px;
@@ -124,7 +85,7 @@ header .navbar-default .navbar-header {
 	background: #fff;
 }
 
-/*== Logo ==*/
+/* Logo */
 
 .navbar-brand {
 	float: left;
@@ -162,23 +123,19 @@ header .navbar-default .navbar-header {
 }
 
 .web-sh.navbar-form input::-webkit-input-placeholder {
-	/* Chrome */
 	color: #474747;
 }
 
 .web-sh.navbar-form input:-ms-input-placeholder {
-	/* IE 10+ */
 	color: #474747;
 }
 
 .web-sh.navbar-form input::-moz-placeholder {
-	/* Firefox 19+ */
 	color #474747;
 	opacity: 1;
 }
 
 .web-sh.navbar-form input:-moz-placeholder {
-	/* Firefox 4 - 18 */
 	color: #474747;
 	opacity: 1;
 }
@@ -187,7 +144,6 @@ header .navbar-default .navbar-header {
 	font-size: 0;
 }
 
-/*== Search Bar ==*/
 
 .search-box {
 	background: #fff;
@@ -428,9 +384,6 @@ header .navbar-default .navbar-header {
 	color: #1e96ff;
 }
 
-/*------------------------------------------------------------- 
-	4. PAGE CONTENT PRODUCT
--------------------------------------------------------------*/
 
 .page-content-product {}
 
@@ -480,23 +433,19 @@ header .navbar-default .navbar-header {
 }
 
 .form-sh input::-webkit-input-placeholder {
-	/* Chrome */
 	color: #ffffff;
 }
 
 .form-sh input:-ms-input-placeholder {
-	/* IE 10+ */
 	color: #ffffff;
 }
 
 .form-sh input::-moz-placeholder {
-	/* Firefox 19+ */
 	color: #ffffff;
 	opacity: 1;
 }
 
 .form-sh input:-moz-placeholder {
-	/* Firefox 4 - 18 */
 	color: #ffffff;
 	opacity: 1;
 }
@@ -647,9 +596,7 @@ header .navbar-default .navbar-header {
 	color: #1d99ff;
 }
 
-/*------------------------------------------------------------- 
-	5. SECTION
--------------------------------------------------------------*/
+
 
 .cat-main-box {
 	background: #f4f9fd;
@@ -698,7 +645,6 @@ header .navbar-default .navbar-header {
 	border-color: transparent;
 }
 
-/*-- Products Exciting --*/
 
 .products_exciting_box {
 	background: #f4f9fd;
@@ -761,7 +707,6 @@ header .navbar-default .navbar-header {
 	padding-right: 50px;
 }
 
-/*-- Start Free --*/
 
 .start-free-box {
 	padding: 60px 0px;
@@ -910,9 +855,7 @@ header .navbar-default .navbar-header {
 
 .right-supplier img {}
 
-/*------------------------------------------------------------- 
-	6. PRODUCT
--------------------------------------------------------------*/
+
 
 .products {
 	padding: 40px 0px 60px 0px;
@@ -1038,9 +981,7 @@ header .navbar-default .navbar-header {
 	display: none;
 }
 
-/*------------------------------------------------------------- 
-	7. FOOTER
--------------------------------------------------------------*/
+/* 7. FOOTER*/
 
 .main-footer {
 	background-image: url('../images/footer_bg.png');
@@ -1190,7 +1131,6 @@ header .navbar-default .navbar-header {
 	color: #fff;
 }
 
-/*-- Copyright --*/
 
 .copyright {
 	background: #ffffff;
@@ -1248,11 +1188,6 @@ header .navbar-default .navbar-header {
 }
 
 
-/*------------------------------------------------------------- 
-	8. INNER PAGE 
--------------------------------------------------------------*/
-
-/*-- How it Works --*/
 
 .section-how-it-works {
 	padding: 70px 0px;
@@ -1886,7 +1821,6 @@ header .navbar-default .navbar-header {
 	text-decoration: underline;
 }
 
-/*-- Terms Page --*/
 
 .terms-conditions {
 	padding-bottom: 70px;
@@ -1943,7 +1877,6 @@ header .navbar-default .navbar-header {
 	font-weight: 700;
 }
 
-/*-- Cooming Soon --*/
 
 .soon-gradient {
 	background-color: #09284b;
